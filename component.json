@@ -1,7 +1,7 @@
 {
   "name": "stitch-text",
   "version": "0.1.0",
-  "main": "_text.sass",
+  "main": "_stitch-text.sass",
   "author": "Anthony Short",
   "dependencies": {
     "stitch-utils": "*"
