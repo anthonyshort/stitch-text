@@ -6,15 +6,15 @@ $font-stack-monospace: "Monaco", Courier New, monospace !default
 //  Shorthand for CSS columns
 //  @include text-columns(3,20px);
 @mixin text-columns($count:2, $gap:20px, $width:auto, $rule:none)
-  @include prefix-property(column-count, $count)
-  @include prefix-property(column-gap, $count)
-  @include prefix-property(column-width, $width)
-  @include prefix-property(column-rule, $rule)
+  @include prefix(column-count, $count)
+  @include prefix(column-gap, $count)
+  @include prefix(column-width, $width)
+  @include prefix(column-rule, $rule)
 
 // Initial Value: manual
 // Values: none, manual, auto
 @mixin hyphenate($value:auto)
-  @include prefix-property(hyphens, $value)
+  @include prefix(hyphens, $value)
 
 // Justify text and automatically hyphenates
 // which should be done when justifying text
